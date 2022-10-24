@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html lang="ko">
+        <head>
+            <meta charset="UTF-8">
+            <title>곤충퀴즈</title>
+            <link rel="stylesheet" href="곤충퀴즈.css">
+            <script src="data.js"></script>
+        </head>
+        <body>
+            <header>
+                <button id="title" onclick="a('main.html');">곤충퀴즈</button>
+            </header>
+            <div id="list">
+                <span><button class="lists" onclick="a('나비.html');">나비류</button></span>
+                <span><button class="lists" onclick="a('매미.html');">매미류</button></span>
+                <span><button class="lists" onclick="a('잠자리.html');">잠자리류</button></span>
+                <span><button class="lists" onclick="a('개미.html');">개미류</button></span>
+            </div>
+            <main>
+                <div>
+                    <span><button onclick="a('사용법.html');">사용법</button></span>
+                    <span><button onclick="a('곤충도감.html');">곤충도감</button></span>
+                </div>
+                <br><br><br>
+                <img src="말매미.jpg" onclick="question(2, 5);">
+                <img src="애매미.jpg" onclick="question(2, 6);">
+                <img src="유지매미.jpg" onclick="question(2, 7);">
+                <img src="참매미.jpg" onclick="question(2, 8);">
+                <img src="털매미.jpg" onclick="question(2, 9);">
+            </main>
+        </body>
+    </html>

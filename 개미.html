@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="ko">
+        <head>
+            <meta charset="UTF-8">
+            <title>곤충퀴즈</title>
+            <link rel="stylesheet" href="곤충퀴즈.css">
+            <script src="data.js"></script>
+        </head>
+        <body>
+            <header>
+                <button id="title" onclick="a('main.html');">곤충퀴즈</button>
+            </header>
+            <div id="list">
+                <span><button class="lists" onclick="a('나비.html');">나비류</button></span>
+                <span><button class="lists" onclick="a('매미.html');">매미류</button></span>
+                <span><button class="lists" onclick="a('잠자리.html');">잠자리류</button></span>
+                <span><button class="lists" onclick="a('개미.html');">개미류</button></span>
+            </div>
+            <main>
+                <div>
+                    <span><button onclick="a('사용법.html');">사용법</button></span>
+                    <span><button onclick="a('곤충도감.html');">곤충도감</button></span>
+                </div>
+                <br><br><br>
+                <img src="곰개미.jpg" onclick="question(3, 16);">
+                <img src="꿀단지개미.jpg" onclick="question(3, 17);">
+                <img src="유령개미.jpg" onclick="question(3, 18);">
+                <img src="이토왕개미.jpg" onclick="question(3, 19);">
+            </main>
+        </body>
+    </html>
