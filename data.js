@@ -14,8 +14,8 @@ const answer_lists = [
     '1',
     '2',
     '4',
-    '6',
     '5',
+    '6',
 
     '4',
     '1',
@@ -38,6 +38,8 @@ const answer_lists = [
 const question = (question, answer)=>{
     alert("객관식 문제입니다. 답을 작성할 때 \"번호\"만 작성해주세요. ")
     let input = prompt(question_lists[question]);
+    console.log(input)
+    console.log(answer_lists[answer])
     if(answer_lists[answer] === input){
         alert("정답입니다!");
     }else{

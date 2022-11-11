@@ -1,8 +1,11 @@
+html{
+    width: 100%;
+}
 body{
-    background-color: rgba(123, 246, 145, 0.345);
+    background: linear-gradient( to right, rgb(0, 254, 4), rgb(0, 213, 255) );
 }
 #main_description{
-    font-size: 50px;
+    font-size: 45px;
     margin-top: 50px;
     text-align: center;
 }
@@ -10,7 +13,9 @@ header{
     padding-bottom: 15px;
     margin-top: 30px;
     margin-bottom: 80px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid;
+    border-image: linear-gradient( to left, rgb(250, 251, 250), rgb(0, 0, 0) );
+    border-image-slice: 1;
 }
 button{
     position: relative;
@@ -30,16 +35,18 @@ button:hover{
 #list{
     padding-bottom: 80px;
     margin-bottom: 80px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid;
+    border-image: linear-gradient( to left, rgb(250, 251, 250), rgb(0, 0, 0) );
+    border-image-slice: 1;
 }
 .lists{
-    margin-left: 70px;
+    margin-left: 1%;
     position: relative;
     font-size: 35px;
     transition: all 0.3s ease 0s;
     background-color: rgb(255, 255, 255);
-    height: 60px;
-    width: 275px;
+    height: 50px;
+    width: 220px;
     color: rgb(0, 0, 0);
     text-align: center;
     font-weight: 20px;
@@ -49,11 +56,12 @@ button:hover{
     background-color: rgb(148, 114, 252);
 }
 #title{
-    margin-left: 600px;
+    margin-left: 35%;
+    margin-right: 35%;
     position: relative;
     font-size: 40px;
     transition: all 0.3s ease 0s;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     height: 70px;
     width: 300px;
     color: rgb(0, 0, 0);
@@ -62,17 +70,27 @@ button:hover{
     border-radius: 5px;
 }
 #title:hover {
-    background-color: rgb(132, 241, 255);
+    background: rgb(200, 220, 123);
 }
-h2{
+h1{
     text-align: center;
+    color:rgb(6, 6, 6);
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
 }
 img{
-    margin-left: 350px;
+    margin-left: 25%;
     margin-bottom: 50px;
     width: 50%;
     height: 50%;
 }
 h3{
     text-align: center;
+}
+.g{
+    margin-left: 0%;
+}
+#example{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 45px;
 }
